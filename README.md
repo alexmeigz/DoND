@@ -4,7 +4,7 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 
 ## Case Values
 
-|  |  |
+| Pricing |
 | ------------- | ------------- |
 | $0.01 | $ 1,000 |
 | $750 | $1,000,000 |
