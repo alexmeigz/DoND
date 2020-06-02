@@ -55,7 +55,7 @@ Comments are listed in the starter code to explain the code itself.
     8. `bankOffer()` (5 points) <br />
     **Note:** banker offer = expected value of remaining cases * ((26 - number of remaining cases) / 24 + 0.01).
     9. `startRound()` (30 points) <br />
-    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.) 
+    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.) <br />
     **Hint:** it may be easier to split this function into multiple smaller functions.
     10. `startGame()` (5 points) <br />
     **Example:** for a full example call of `startGame()`, refer to Figure 5 below. Make sure `random.seed()` is set to 255 to get the same results as the example below.
