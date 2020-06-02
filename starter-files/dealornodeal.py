@@ -45,7 +45,7 @@ def convertToBoard(lyst):
 
     :parameter lyst - list of remaining money amounts (as floats)
     (Note: money amounts that have been removed from the game
-    are empty strings in the lyst paramter)
+    are empty strings in the lyst parameter)
     :return board - 2D list of remaining money amounts
     """
     board = [] #stub
