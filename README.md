@@ -88,9 +88,8 @@ Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
 Choose a case: 1
 ```
 
-Figure 3
+Figure 3 (num = 1)
 ```
-Choose a case: 1
 Case 1 contained... $50!
 ```
 
