@@ -48,14 +48,14 @@ Comments are listed in the starter code to explain the code itself.
     **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()` (5 points) <br />
     **Example:** for an example call of `getUserInput()`, refer to Figure 2 below.
-    6. `openCase()` (10 points)
+    6. `openCase()` (10 points) <br />
     **Example:** for an example call of `openCase()`, refer to Figure 3 below. (Note that the money amount may be different due to the random factor.)
     7. `expectation()` (5 points) <br />
     **Note:** expected value = sum of remaining money amounts / number of remaining cases.
     8. `bankOffer()` (5 points) <br />
     **Note:** banker offer = expected value of remaining cases * ((26 - number of remaining cases) / 24 + 0.01).
-    9. `startRound()` (30 points)
-    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.) <br />
+    9. `startRound()` (30 points) <br />
+    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.) 
     **Hint:** it may be easier to split this function into multiple smaller functions.
     10. `startGame()` (5 points) <br />
     **Example:** for a full example call of `startGame()`, refer to Figure 5 below. Make sure `random.seed()` is set to 255 to get the same results as the example below.
