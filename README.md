@@ -49,6 +49,7 @@ Comments are listed in the starter code to explain the code itself.
     **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 28 characters. 
     **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()`
+    **Example:** for an example call of getUserInput, refer to Figure 2 below.
     6. `openCase()`
     7. `expectation()`
     8. `bankOffer()`
@@ -74,6 +75,16 @@ Figure 1
 **  $500  **    $750,000  **
 **  $750  **  $1,000,000  **
 ****************************
+```
+
+Figure 2
+```
+Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 100
+Invalid Choice. Choose again.
+
+Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 1
 ```
 
 3. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
