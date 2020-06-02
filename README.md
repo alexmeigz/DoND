@@ -47,7 +47,7 @@ Comments are listed in the starter code to explain the code itself.
     4. `outputBoard()` 
     **Example:** for a full board with no removed values, see the output in Figure 1. 
     **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 28 characters. 
-    **Hint:**  
+    **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()`
     6. `openCase()`
     7. `expectation()`
