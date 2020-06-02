@@ -21,7 +21,7 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 | $750 | $1,000,000 |
 
 ## Game Overview
-0. Contestant selects 1 case to keep for safekeeping
+0. Contestant selects 1 case to keep for safekeeping.
 1. Contestant opens 6 cases. (19 cases left.) Banker Offer follows. 
 2. If offer is rejected, Contestant opens 5 more cases. (14 cases left.) Banker Offer follows. 
 3. If offer is rejected, Contestant opens 4 more cases. (10 cases left.) Banker Offer follows. 
@@ -32,3 +32,9 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 8. If offer is rejected, Contestant opens 1 more case. (2 cases left.) Banker Offer follows. 
 9. If offer is rejected, Contestant opens 1 more case. (1 cases left.) Banker Offer follows. 
 10. If offer is rejected, Contestant may keep their original case or swap with the 1 case left. They win amount described in chosen case.
+
+## Implementation Guide
+0. Download the starter files provided in this repository under the 'starter-files' directory. `dealornodeal.py` will contain the starter code and `money.txt` will contain the money values, each listed on a single line followed by a newline character.
+Comments are listed in the starter code to explain the code itself.
+
+1. 
