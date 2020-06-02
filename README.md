@@ -19,3 +19,35 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 | $400 | $ 500,000 |
 | $500 | $ 750,000 |
 | $750 | $1,000,000 |
+
+## Game Overview
+1. Contestant selects 1 case to keep for safekeeping
+
+2. Contestant opens 6 cases. (19 cases left.)
+3. Banker Offer. 
+
+4. If Banker Offer is not accepted, Contestant opens 5 more cases. (14 cases left.)
+5. Banker Offer.
+
+6. If Banker Offer is not accepted, Contestant opens 4 more cases. (10 cases left.)
+7. Banker Offer.
+
+8. If Banker Offer is not accepted, Contestant opens 3 more cases. (7 cases left.)
+9. Banker Offer.
+
+10. If Banker Offer is not accepted, Contestant opens 2 more cases. (5 cases left.)
+11. Banker Offer.
+
+12. If Banker Offer is not accepted, Contestant opens 1 more case. (4 cases left.)
+13. Banker Offer.
+
+14. If Banker Offer is not accepted, Contestant opens 1 more case. (3 cases left.)
+15. Banker Offer.
+
+16. If Banker Offer is not accepted, Contestant opens 1 more case. (2 cases left.)
+17. Banker Offer.
+
+18. If Banker Offer is not accepted, Contestant opens 1 more case. (1 cases left.)
+19. Banker Offer.
+
+20. Contestant may keep their original case or swap with the 1 case left. They win amount described in chosen case.
