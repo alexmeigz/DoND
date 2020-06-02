@@ -40,9 +40,10 @@ Comments are listed in the starter code to explain the code itself.
 1. Understand the global variables listed with the `if__name__ == '__main__':` block. We will be working with these variables extensively, passing them into functions for outputting and manipulation purposes.
 
 2. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
-    * `parseFile()`
+    * `parseFile()` 
     * `setUp()`
-    * `convertToBoard()`
+    * `convertToBoard()` 
+    Hint: recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     * `outputBoard()`
     * `getUserInput()`
     * `openCase()`
