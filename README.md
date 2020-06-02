@@ -37,4 +37,7 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 0. Download the starter files provided in this repository under the 'starter-files' directory. `dealornodeal.py` will contain the starter code and `money.txt` will contain the money values, each listed on a single line followed by a newline character.
 Comments are listed in the starter code to explain the code itself.
 
-1. 
+1. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification.
+a. `parseFile()`
+
+2. 
