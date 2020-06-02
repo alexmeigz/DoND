@@ -57,6 +57,7 @@ Comments are listed in the starter code to explain the code itself.
     8. `bankOffer()`
     **Note:** banker offer = expected value of remaining cases * ((26 - number of remaining cases) / 24 + 0.01).
     9. `startRound()`
+    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.)
     10. `startGame()`
      
 
@@ -91,9 +92,65 @@ Choose a case: 1
 
 ```
 
-Figure 3 (num = 1)
+Figure 3
 ```
 Case 1 contained... $50!
+
+
+```
+
+Figure 4
+```
+
+
+Round 1 Starting...
+
+Remaining Cases: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 2
+Case 2 contained... $750000!
+
+Remaining Cases: ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 3
+Case 3 contained... $75!
+
+Remaining Cases: ['4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 4
+Case 4 contained... $400000!
+
+Remaining Cases: ['5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 5
+Case 5 contained... $50000!
+
+Remaining Cases: ['6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 6
+Case 6 contained... $0.01!
+
+Remaining Cases: ['7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+Choose a case: 7
+Case 7 contained... $10!
+
+That's the end of Round 1.
+Let's look at the current board state:
+*****************************
+**         **      $1,000  **
+**     $1  **      $5,000  **
+**     $5  **     $10,000  **
+**         **     $25,000  **
+**    $25  **              **
+**    $50  **     $75,000  **
+**         **    $100,000  **
+**   $100  **    $200,000  **
+**   $200  **    $300,000  **
+**   $300  **              **
+**   $400  **    $500,000  **
+**   $500  **              **
+**   $750  **  $1,000,000  **
+*****************************
+The banker is offering you $28838.30 to buy your case.
+Deal or No Deal? deal
+
+Congratulations! You have won $28838.30!
+Your original case contained... $50!
 
 
 ```
