@@ -43,9 +43,11 @@ Comments are listed in the starter code to explain the code itself.
     1. `parseFile()` 
     2. `setUp()`
     3. `convertToBoard()` 
-    Hint: recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
+    **Hint:** recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     4. `outputBoard()` 
-    Example: for a full board with no removed values, see the output in Figure 6.1
+    **Example:** for a full board with no removed values, see the output in Figure 1. 
+    **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 28 characters. 
+    **Hint:**  
     5. `getUserInput()`
     6. `openCase()`
     7. `expectation()`
@@ -55,8 +57,8 @@ Comments are listed in the starter code to explain the code itself.
      
 
 
-```
 Figure 1
+```
 ****************************
 **    $0  **      $1,000  **
 **    $1  **      $5,000  **
