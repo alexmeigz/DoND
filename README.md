@@ -21,33 +21,14 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 | $750 | $1,000,000 |
 
 ## Game Overview
-1. Contestant selects 1 case to keep for safekeeping
-
-2. Contestant opens 6 cases. (19 cases left.)
-3. Banker Offer. 
-
-4. If Banker Offer is not accepted, Contestant opens 5 more cases. (14 cases left.)
-5. Banker Offer.
-
-6. If Banker Offer is not accepted, Contestant opens 4 more cases. (10 cases left.)
-7. Banker Offer.
-
-8. If Banker Offer is not accepted, Contestant opens 3 more cases. (7 cases left.)
-9. Banker Offer.
-
-10. If Banker Offer is not accepted, Contestant opens 2 more cases. (5 cases left.)
-11. Banker Offer.
-
-12. If Banker Offer is not accepted, Contestant opens 1 more case. (4 cases left.)
-13. Banker Offer.
-
-14. If Banker Offer is not accepted, Contestant opens 1 more case. (3 cases left.)
-15. Banker Offer.
-
-16. If Banker Offer is not accepted, Contestant opens 1 more case. (2 cases left.)
-17. Banker Offer.
-
-18. If Banker Offer is not accepted, Contestant opens 1 more case. (1 cases left.)
-19. Banker Offer.
-
-20. Contestant may keep their original case or swap with the 1 case left. They win amount described in chosen case.
+0. Contestant selects 1 case to keep for safekeeping
+1. Contestant opens 6 cases. (19 cases left.) Banker Offer follows. 
+2. If offer is rejected, Contestant opens 5 more cases. (14 cases left.) Banker Offer follows. 
+3. If offer is rejected, Contestant opens 4 more cases. (10 cases left.) Banker Offer follows. 
+4. If offer is rejected, Contestant opens 3 more cases. (7 cases left.) Banker Offer follows. 
+5. If offer is rejected, Contestant opens 2 more cases. (5 cases left.) Banker Offer follows. 
+6. If offer is rejected, Contestant opens 1 more case. (4 cases left.) Banker Offer follows. 
+7. If offer is rejected, Contestant opens 1 more case. (3 cases left.) Banker Offer follows. 
+8. If offer is rejected, Contestant opens 1 more case. (2 cases left.) Banker Offer follows. 
+9. If offer is rejected, Contestant opens 1 more case. (1 cases left.) Banker Offer follows. 
+10. If offer is rejected, Contestant may keep their original case or swap with the 1 case left. They win amount described in chosen case.
