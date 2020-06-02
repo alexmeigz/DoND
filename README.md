@@ -38,14 +38,14 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 Comments are listed in the starter code to explain the code itself.
 
 1. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
-    1. `parseFile()` (5 points)
+    1. `parseFile()` (5 points) <br />
     2. `setUp()` (5 points) <br />
     **Hint:** recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     3. `convertToBoard()` (5 points)
     4. `outputBoard()` (10 points) <br />
     **Example:** for a full board with no removed values, see the output in Figure 1. <br />
     **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 29 characters. <br />
-    **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
+    **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupied parameter to left, center, or right justify respectively.
     5. `getUserInput()` (5 points) <br />
     **Example:** for an example call of `getUserInput()`, refer to Figure 2 below.
     6. `openCase()` (10 points) <br />
