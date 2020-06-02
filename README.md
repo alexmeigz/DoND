@@ -43,7 +43,7 @@ Comments are listed in the starter code to explain the code itself.
     **Hint:** recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     3. `convertToBoard()` (5 points)
     4. `outputBoard()` (10 points)
-    **Example:** for a full board with no removed values, see the output in Figure 1. 
+    **Example:** for a full board with no removed values, see the output in Figure 1. <br />
     **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 29 characters. 
     **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()` (5 points)
