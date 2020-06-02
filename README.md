@@ -40,8 +40,8 @@ Comments are listed in the starter code to explain the code itself.
 1. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
     1. `parseFile()` (5 points)
     2. `setUp()` (5 points)
-    3. `convertToBoard()` (5 points)
     **Hint:** recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
+    3. `convertToBoard()` (5 points)
     4. `outputBoard()` (10 points)
     **Example:** for a full board with no removed values, see the output in Figure 1. 
     **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 29 characters. 
@@ -55,7 +55,7 @@ Comments are listed in the starter code to explain the code itself.
     8. `bankOffer()` (5 points)
     **Note:** banker offer = expected value of remaining cases * ((26 - number of remaining cases) / 24 + 0.01).
     9. `startRound()` (30 points)
-    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.)
+    **Example:** for an example call of `startRound()`, refer to Figure 4 below. (Note that the money amounts may be different due to the random factor.) **Hint:** it may be easier to split this function into multiple smaller functions.
     10. `startGame()` (5 points)
     **Example:** for a full example call of `startGame()`, refer to Figure 5 below. Make sure `random.seed()` is set to 255 to get the same results as the example below.
 
