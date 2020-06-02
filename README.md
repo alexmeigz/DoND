@@ -40,12 +40,14 @@ Comments are listed in the starter code to explain the code itself.
 1. Understand the global variables listed with the `if__name__ == '__main__':` block. We will be working with these variables extensively, passing them into functions for outputting and manipulation purposes.
 
 2. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
-    * `parseFile()` 
-    * `setUp()`
-    * `convertToBoard()` 
+    1. `parseFile()` 
+    2. `setUp()`
+    3. `convertToBoard()` 
     Hint: recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
-    * `outputBoard()` 
-    Example: for a full board with no removed values, the following should be outputted: `****************************
+    4. `outputBoard()` 
+    Example: for a full board with no removed values, the following should be outputted: ```
+```    
+****************************
 **    $0  **      $1,000  **
 **    $1  **      $5,000  **
 **    $5  **     $10,000  **
@@ -59,9 +61,10 @@ Comments are listed in the starter code to explain the code itself.
 **  $400  **    $500,000  **
 **  $500  **    $750,000  **
 **  $750  **  $1,000,000  **
-****************************`
+****************************
+```
 
-    * `getUserInput()`
+    5. `getUserInput()`
     * `openCase()`
     * `expectation()`
     * `bankOffer()`
