@@ -38,6 +38,6 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 Comments are listed in the starter code to explain the code itself.
 
 1. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification.
-a. `parseFile()`
+    a. `parseFile()`
 
 2. 
