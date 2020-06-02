@@ -61,7 +61,8 @@ Comments are listed in the starter code to explain the code itself.
     10. `startGame()`
     **Example:** for a full example call of `startGame()`, refer to Figure 5 below. Make sure `random.seed()` is set to 255 to get the same results as the example below.
 
-Figure 1
+<details>
+    <summary> Figure 1 </summary>
 ```
 *****************************
 **  $0.01  **      $1,000  **
@@ -79,8 +80,11 @@ Figure 1
 **   $750  **  $1,000,000  **
 *****************************
 ```
+</details>
 
-Figure 2
+<details>
+    <summary> Figure 2 </summary>
+    
 ```
 Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
 Choose a case: 100
@@ -90,13 +94,17 @@ Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
 Choose a case: 1
 
 ```
+</details>
 
-Figure 3
+<details>
+    <summary> Figure 3 </summary>
+    
 ```
 Case 1 contained... $50!
 
 
 ```
+</details>
 
 <details>
     <summary> Figure 4 </summary>
