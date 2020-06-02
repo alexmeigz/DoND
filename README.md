@@ -157,9 +157,9 @@ Your original case contained... $50!
 ```
 
 Figure 5 
-<detail>
-<summary>
-<p>
+<details>
+    <summary> Figure 5 </summary>
+
 ```
 Welcome to Deal or No Deal!
 Listed below are all the various cash prizes you could walk away with today!
@@ -495,10 +495,9 @@ Would you like to keep your case or swap with the other case remaining? swap
 Case 26 contains... $1!
 Congratulations! You have won $1!
 
-\```
+```
 </p>
-</summary>
-</detail>
+</details>
 
 
 3. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
