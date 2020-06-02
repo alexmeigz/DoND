@@ -48,7 +48,7 @@ Comments are listed in the starter code to explain the code itself.
     **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()` (5 points)
     **Example:** for an example call of `getUserInput()`, refer to Figure 2 below.
-    6. `openCase()` (5 points)
+    6. `openCase()` (10 points)
     **Example:** for an example call of `openCase()`, refer to Figure 3 below. (Note that the money amount may be different due to the random factor.)
     7. `expectation()` (5 points)
     **Note:** expected value = sum of remaining money amounts / number of remaining cases.
@@ -508,4 +508,4 @@ Congratulations! You have won $1!
 </details>
 
 
-2. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
+2. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional. (15 points)
