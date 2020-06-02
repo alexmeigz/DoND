@@ -45,7 +45,7 @@ Comments are listed in the starter code to explain the code itself.
     3. `convertToBoard()` 
     Hint: recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     4. `outputBoard()` 
-    Example: for a full board with no removed values, the following should be outputted: ```
+    Example: for a full board with no removed values, the following should be outputted: 
 ```    
 ****************************
 **    $0  **      $1,000  **
