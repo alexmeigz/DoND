@@ -46,14 +46,16 @@ Comments are listed in the starter code to explain the code itself.
     **Hint:** recall that lists and dictionaries have the mutability property and any changes we make to these structures within a function will make the change on the original copy. How could we leave the original copy untouched?
     4. `outputBoard()` 
     **Example:** for a full board with no removed values, see the output in Figure 1. 
-    **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 28 characters. 
+    **Note:** there are 2 spaces separating the largest values of each column on either side and each row occupies exactly 29 characters. 
     **Hint:** recall the general format for a replacement field for string formatting {argumentIndex:spacesOccupied}. To specify that we want the comma thousands seperator, add a comma after the spacesOccupied parameter. To specify that we want n decimal points of precision, add .nf where n is a natural number after the spacesOccupied (and comma) parameter. (Note that the replacement field must be a float.) To specify alignment, add <, ^, or > before the spacesOccupiedParameter to left, center, or right justify respectively.
     5. `getUserInput()`
     **Example:** for an example call of `getUserInput()`, refer to Figure 2 below.
     6. `openCase()`
     **Example:** for an example call of `openCase()`, refer to Figure 3 below. (Note that the money amount may be different due to the random factor.)
-    7. `expectation()`
+    7. `expectation()` 
+    **Note:** expected value = sum of remaining money amounts / number of remaining cases.
     8. `bankOffer()`
+    **Note:** banker offer = expected value of remaining cases * ((26 - number of remaining cases) / 24 + 0.01).
     9. `startRound()`
     10. `startGame()`
      
@@ -61,21 +63,21 @@ Comments are listed in the starter code to explain the code itself.
 
 Figure 1
 ```
-****************************
-**    $0  **      $1,000  **
-**    $1  **      $5,000  **
-**    $5  **     $10,000  **
-**   $10  **     $25,000  **
-**   $25  **     $50,000  **
-**   $50  **     $75,000  **
-**   $75  **    $100,000  **
-**  $100  **    $200,000  **
-**  $200  **    $300,000  **
-**  $300  **    $400,000  **
-**  $400  **    $500,000  **
-**  $500  **    $750,000  **
-**  $750  **  $1,000,000  **
-****************************
+*****************************
+**  $0.01  **      $1,000  **
+**     $1  **      $5,000  **
+**     $5  **     $10,000  **
+**    $10  **     $25,000  **
+**    $25  **     $50,000  **
+**    $50  **     $75,000  **
+**    $75  **    $100,000  **
+**   $100  **    $200,000  **
+**   $200  **    $300,000  **
+**   $300  **    $400,000  **
+**   $400  **    $500,000  **
+**   $500  **    $750,000  **
+**   $750  **  $1,000,000  **
+*****************************
 ```
 
 Figure 2
@@ -86,11 +88,14 @@ Invalid Choice. Choose again.
 
 Remaining Cases: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
 Choose a case: 1
+
 ```
 
 Figure 3 (num = 1)
 ```
 Case 1 contained... $50!
+
+
 ```
 
 3. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
