@@ -37,9 +37,7 @@ Deal or No Deal is a game show where a lucky player will get the chance to win a
 0. Download the starter files provided in this repository under the 'starter-files' directory. `dealornodeal.py` will contain the starter code and `money.txt` will contain the money values, each listed on a single line followed by a newline character.
 Comments are listed in the starter code to explain the code itself.
 
-1. Understand the global variables listed with the `if__name__ == '__main__':` block. We will be working with these variables extensively, passing them into functions for outputting and manipulation purposes.
-
-2. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
+1. Implement each of the following functions below, methodically, one-at-a-time. Test your functions to make sure that the inputs and outputs match the intended specification provided within the starter code itself.
     1. `parseFile()` 
     2. `setUp()`
     3. `convertToBoard()` 
@@ -510,4 +508,4 @@ Congratulations! You have won $1!
 </details>
 
 
-3. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
+2. Confirm you are finished by calling the `startGame()` function within the `if__name__ == '__main__':` and playing a few games with different end conditions (accepting banker's offer, opening original case, etc.) until you are confident that the game is fully functional.
