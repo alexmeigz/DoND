@@ -64,6 +64,7 @@ Comments are listed in the starter code to explain the code itself.
 
 <details>
     <summary> Figure 1 </summary>
+
 ```
 *****************************
 **  $0.01  **      $1,000  **
